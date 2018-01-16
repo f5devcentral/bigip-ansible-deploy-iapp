@@ -1,0 +1,6 @@
+directory_path: "/root/ps_ansible/playbooks/roles/deploy_iapp/templates"
+bigip_address: "10.192.73.218"
+username: "admin"
+password: "admin"
+
+vip_ip: "10.168.68.144"
