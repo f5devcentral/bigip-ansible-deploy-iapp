@@ -4,6 +4,11 @@ Ansible role to deploy an F5 iApp
 This is a workflow to
 *  Deploy an iApp
 
+Playbook steps
+* Take a template file as input and create a JSON payload, substitute the VIP and pool member IP values from the variable file
+* Deploy the iApp using the JSON payload above (iApp template in this case is already present on the BIG-IP)
+  - Template used here is f5.http iapp
+
 ## Requirements
 * This role requires Ansible 2.4
 * BIG-IP is licensed
