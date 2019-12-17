@@ -1,3 +1,5 @@
+> This repo is archived and is no longer actively maintained.
+
 # bigip-ansible-deploy-iapp
 Ansible role to deploy an F5 iApp
 
